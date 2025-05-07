@@ -54,11 +54,7 @@
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p>This tool uses the five modules of the SEN2 dataset. The column names in each module must be capitalised, spelled, and formatted correctly as they are used to identify each module within the code.
-                Further details can be seen in the explandable box below.
-              </p>
-              <p>The tool currently only accepts CSV data. Each module must be loaded in a seprate CSV with headers in the first row, and no empty rows/columns before headers or data.</p>
-              <p>We are working on XLSX support but at the moment this is not a feature.</p>
+              <p>The tool currently only accepts XML data. The data must be prepared exactly as it would be for submission to COLLECT.</p>
               <p>To use the tool drag and drop your five CSVs into the upload box on the <a href="../index.html">main page</a> and click submit. The tool may take a couple of minutes to process the data and display visualisations.</p>
             </div>
           </div>
@@ -69,56 +65,7 @@
               Header/column names for each module
             </button>
           </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              The column names for each module must appear exactly as is shown below (between quotation marks).
-              Modules cannot be ommited. Columns must be yyyy-mm-dd format using dashes (-) between elements and numberical, zero padded days/months.
-              <dl>
-                <dt>Module 1</dt>
-                <dd>"Forename", "Dob (ccyy-mm-dd)", "Gender","Ethnicity", "Postcode","UPN - Unique Pupil Number", "ULN - Young Persons Unique Learner Number", "UPN and ULN unavailable reason",</dd>
-                <dt>Module 2</dt>
-                <dd>"Person ID",
-                  "Requests Record ID",
-                  "Date Request Was Received",
-                  "Initial Request Whilst In RYA",
-                  "Request Outcome Date",
-                  "Request Outcome",
-                  "Request Mediation",
-                  "Request Tribunal",
-                  "Exported - Child Or Young Person Moves Out Of LA Before Assessment Is Completed",
-                  "New start date"</dd>
-                <dt>Module 3</dt>
-                <dd>"Person ID",
-                  "Requests Record ID",
-                  "Assessment Outcome To Issue EHCP",
-                  "Assessment Outcome Date",
-                  "Assessment Mediation",
-                  "Assessment Tribunal",
-                  "Other Mediation",
-                  "Other Tribunal",
-                  "Twenty Weeks Time Limit Exceptions Apply"</dd>  
-                <dt>Module 4</dt>
-                <dd>"Person ID",
-                  "Request Records ID",
-                  "EHC Plan Start Date",
-                  "Residential Settings",
-                  "Worked based learning activity",
-                  "Personal budget taken up",
-                  "Personal budget - organised arrangements",
-                  "Personal budget - direct payments",
-                  "Date EHC Plan Ceased",
-                  "Reason EHC Plan Ceased"</dd> 
-                <dt>Module 5</dt>   
-                <dd>"Person ID",
-                  "Request Records ID",
-                  "EHC Plan (Transfer)",
-                  "Residential Settings",
-                  "Worked based learning activity",
-                  "EHCP review decisions date",</dd>
-              </dl>
 
-            </div>
-          </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
